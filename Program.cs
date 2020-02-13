@@ -9,12 +9,10 @@ namespace EXERCICIO_01
             string acao = "";
             string caminho = "gravados.txt";
             string nome = "", email = "",telefone = "", rg = "";
-            //string conexao = 
-
             Console.WriteLine("G - Gravar");
             Console.WriteLine("L-Ler");
             Console.WriteLine("S- Sair");
-
+            
             acao = Console.ReadLine().ToUpper();
             Console.WriteLine();
 
